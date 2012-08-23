@@ -1,0 +1,53 @@
+#container { width:848px; }
+#sidebar { width:170px; height: 605px; padding: 5px}
+.inside { width:948px; }
+#custom-header-bg { width:848px; }
+
+#content { width:642px; }
+.post .wp-caption img { max-width:516px; }
+.post .wp-caption { max-width:526px; }
+.post .caption-frame img { max-width:520px; }
+.caption { background-color: #333333; color:#ffffff;  }
+.post.normal .postimage { width:528px; }
+.post.thumb .postimage { height: 150px; }
+.post.thumb { width:242px; }
+.post.thumb .postimage { width:242px; }
+.post.thumb.page-thumb { width:255px; }
+.post.thumb.page-thumb .postimage { width:255px; }
+.widget_featured_posts .post.thumb { width:255px; }
+.widget_featured_posts .post.thumb .postimage { width:255px; }
+
+body { font-family: Arial, Arial, Helvetica, sans-serif; font-size:16px; background-color:#212121; }
+.post { font-size:16px; }
+h1,h2,h3,h4,.post .post-title a { font-family: Arial, Georgia, 'Times New Roman', Times, serif; }
+.blog-title a { font-size:44px; color:#333333; }
+.post h1, .slider-h1 { font-size:42px; color:#ffffff; }
+.post .post-title a { font-size:42px; color:#ffffff; }
+.post.thumb h2 a { color:#ffffff; }
+p.description { color:#999999; }
+a { color:#5b7687; }
+ul.navigation li a { color:#666666; font-size:14px; }
+ul.navigation li.current_page_item a, ul.navigation li.current-cat a { color:#666666; }
+ul.navigation li.current_page_item li a { color:#666666; }
+#footer-widgets li.widget { width: 182px;  }
+
+ul.navigation.navbarbg, ul.navigation.navbarsep { background-color:#f5f5f5; }
+ul.navigation.navbarbg li a, ul.navigation.navbarsep li a, ul.navigation.navboxesbg li a { background-color:#f5f5f5; }
+ul.navigation.navbarbg li a:hover, ul.navigation.navbarsep li a:hover, ul.navigation.navboxesbg li a:hover { background-color:#f0f0f0; }
+
+
+
+.post .post-title h2 { padding-right: 58px; }
+.post .post-title .comment a { font-size: 22px; }
+.post.portfolio .post-title h2 { padding-right: 0; }
+.sf-menu a > .sf-sub-indicator { top: 0.4em; }
+.sf-menu li li a > .sf-sub-indicator { top: 0.6em; }
+ul.navigation li a { font-weight:normal; }
+ul.navigation li a:hover { text-decoration:none; }
+post-title.cufonheading, .post.page h1, post.single.h1 { line-height: 0.9em; }
+h1 a:hover, h2 a:hover { text-decoration:none; }
+
+#sidebar .widgetheading h2 { display: block; padding: 3px 0; background: none; font-family: Arial, Georgia, 'Times New Roman', Times, serif; color: #ffffff; font-size: 17px; border-bottom: 1px solid #444; text-transform:uppercase; letter-spacing:1px; }
+
+blockquote { float:right; width:50%; margin: 0 0 10px 1em; }
+

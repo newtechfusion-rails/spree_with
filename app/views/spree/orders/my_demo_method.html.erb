@@ -1,0 +1,9 @@
+
+<%= form_for(@subscrptn, :as =>:sub, :url => "/orders/my_demo_method", :method =>"post") do |f| %>
+
+<label>Name of product to be subscribed</label>
+<%=  f.text_field :product_name %>
+
+<%= f.submit :Subscribe %>
+
+<%end%>

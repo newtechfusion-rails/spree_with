@@ -1,0 +1,4 @@
+<%= form_for(@comment, :as =>:com, :url => "/comment/comment/commenting", :method =>"post") do |f| %>
+
+<label>Comments</label>
+<%=  f.text_field :comment %>

@@ -1,0 +1,13 @@
+## YAML Template.
+---
+ # Used in number_to_currency()
+     currency:
+       format:
+         # Where is the currency sign? %u is the currency unit, %n the
+#number (default: $5.00)
+         format: "%u%n"
+         unit: "Rs"
+         # These three are to override number.format and are optional
+         separator: "."
+         delimiter: ","
+         precision: 2

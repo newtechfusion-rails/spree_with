@@ -1,0 +1,19 @@
+<%= link_to 'Subscription',main_app.home_method_path %>
+
+<%#= link_to('Comment',:controller=>"/main_app.comment/main_app.comment",:action=>"main_app.commenting") %>
+
+<%#= link_to 'Comment', main_app.comment_path %>
+
+<%= link_to "Comment", @comment %>
+
+<% content_for :sidebar do %>
+
+  <div data-hook="homepage_sidebar_navigation">
+    
+    <%= render :partial => 'spree/shared/taxonomies' %>
+  </div>
+<% end %>
+
+<div data-hook="homepage_products">
+  <%= render :partial => 'spree/shared/products', :locals => { :products => @products } %>
+</div>
