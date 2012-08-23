@@ -63,6 +63,9 @@ gem 'spree_minicart', '~> 1.1.0'
 
 gem 'spree_recently_viewed', :git => 'git://github.com/spree/spree_recently_viewed.git'
 
+#gem 'spree_with', :git => 'git@github.com:newtechfusion-rails/spree_with.git'
+
+gem 'spree_with', :git => 'git//github.com/newtechfusion-rails/spree_with.git'
 
 
 
